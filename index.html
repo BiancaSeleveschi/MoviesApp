@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width">
+  <title>replit</title>
+  <link href="style.css" rel="stylesheet" type="text/css" />
+</head>
+
+<body>
+  <header>
+    <h1>Lista de filme</h1>
+    <nav>
+      <ol>
+        <li>
+          <a href="#">Acasa</a>
+          <a href="#">Lista de filme</a>
+          <a href="#">Adauga film</a>
+          <a href="#">Filme favorite</a>
+        </li>
+      </ol>
+    </nav>
+  </header>
+
+  <main>
+    <h2>Lista de filme</h2>
+    <img src="images/images (1).jfif" width="300" height="400">
+    <h2>Adauga film</h2>
+    <input id="title-film-input" type="text" placeholder="numele filmului">
+    <input id="gendre-film-input" type="text" placeholder="gen">
+    <input id="producer-film-input" type="text" placeholder="regizor">
+    <input id="minutes-length-input" type="text" placeholder="durata">
+    <input id="actors-name-input" type="text" placeholder="numele actorilor">
+    <button id="create-button">Adauga film</button>
+
+    <h3>Filtreaza:</h3>
+    <input id="title-film-filter" type="text" placeholder="numele filmului">
+    <input id="gendre-film-filter" type="text" placeholder="gen">
+    <input id="producer-film-filter" type="text" placeholder="regizor">
+    <input id="min-minutes-length-filter" type="text" placeholder="durata minima">
+    <input id="max-minutes-length-filter" type="text" placeholder="durata maxima">
+    <button id="filter-button">Filtreaza</button>
+
+    <h3>Sorteaza dupa</h3>
+    <button id="title-sort-button"> Nume</button>
+    <button id="gendre-sort-button"> Gen</button>
+    <button id="producer-sort-button"> Regizor</button>
+    <button id="minutes-length-sort-button"> Durata</button>
+
+    <table>
+      <thead>
+        <tr>
+          <td>Title</td>
+          <td>Gendre</td>
+          <td>Producer</td>
+          <td>Minutes length</td>
+          <td>Actors</td>
+          <td>Delete</td>
+          <td>Favorite</td>
+        </tr>
+      </thead>
+      <tbody id="films-tbody"></tbody>
+    </table>
+
+    <h3>Toate filmele impreuna dureaza: </h3>
+    <span id="total-minutes-length-span"></span>
+    <span>minute</span>
+    <h3>Filmul cel mai scurt este: </h3>
+    <span id="shortest-film-span"></span>
+    <h3>Filmul cel mai lung este:</h3>
+    <span id="longest-film-span"></span>
+    <h3>Filmele care se incep cu litera din input sunt:</h3>
+    <input id="first-letter-input" placeholder="prima litera">
+    <button id="first-letter-button">Click</button>
+    <span id="first-letter-span"></span>
+    <h3>Genurile filmelor sunt:</h3>
+    <span id="gendre-span"> </span>
+    <h3>In lista sunt in total: </h3>
+    <span id="total-films-span"></span>
+    <span>filme</span>
+  </main>
+
+  <footer>
+    <h3 id="footer">Acest website a fost creat de Bianca</h3>
+  </footer>
+  <script src="script.js"></script>
+  <script src="https://replit.com/public/js/replit-badge.js" theme="blue" defer></script>
+</body>
+
+</html>

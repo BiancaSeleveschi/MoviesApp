@@ -1,0 +1,82 @@
+html, body {
+  height: 100%;
+  width: 100%;
+  background: #342097;
+  text-align: center;
+}
+
+nav {
+  background: #ffe01a;
+  padding: 20px;
+}
+
+nav ol li a {
+  color:black;
+  padding: 7px;
+}
+
+nav ol li {
+  list-style-type: none;
+}
+
+h3 {
+  color: white;
+}
+input {
+  display: block;
+  margin: auto;
+  margin-bottom: 7px;
+  width: 270px;
+  padding: 7px;
+  font-size: 14px;
+  border-radius: 5px;
+}
+
+button {
+  border-radius: 5px;
+  cursor: pointer;
+  padding:7px;
+}
+
+table {
+  margin: auto;
+  margin-top:20px;
+  border: solid 3px black;
+  width: 90%;
+}
+
+thead {
+  font-weight: bold;
+}
+
+td {
+  text-align: center;
+  background: #a4a6d5;
+  padding: 5px;
+  border: solid 1px #462020;
+}
+
+#first-letter-input {
+  width: 80px;
+}
+
+.delete-button {
+  background: #f22626;
+}
+
+.favorite-button {
+  background: #f066f0;
+}
+
+.nonfavorite-button {
+  background: #fff829;
+  border: solid #b71ab7 3px;
+}
+
+#footer {
+  color: #c1c1f5;
+}
+
+span {
+    font-weight: bold;
+}
